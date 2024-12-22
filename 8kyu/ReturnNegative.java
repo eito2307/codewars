@@ -8,10 +8,8 @@ Kata.makeNegative(0);  // return 0
 */
 public class Kata {
 
-    public static int makeNegative(final int x) {
-      
-      return x*-1;
-      
-    }
-    
+  public static int makeNegative(final int x) {
+      return (x < 0) ? x : -x; 
   }
+  
+}
